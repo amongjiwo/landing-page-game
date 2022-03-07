@@ -110,10 +110,25 @@ nav a {
     left: 17%;
 }
 
+@media (max-width: 767px) {
+    .main-content {
+        left: 5%;
+        top: 8%;
+    }
+}
+
 main h1 {
     line-height: 83px;
     margin-bottom: 45px;
     letter-spacing: 20px;
+}
+
+@media (max-width: 767px) {
+    .main h1 {
+        line-height: 89px;
+        letter-spacing: 8px;
+        font-size: 76px;
+    }
 }
 
 main p {
@@ -229,6 +244,18 @@ main p {
     top: -15px;
     right: 200px;
     color: #FFFFFF
+}
+
+@media (max-width: 1199px) {
+    .game-features .game-features-text {
+        right: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .game-features .game-features-text {
+        right: -43px;
+    }
 }
 
 .white-circle {
