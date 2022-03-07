@@ -98,7 +98,6 @@ nav a {
     font-weight: bold;
     text-transform: uppercase;
     position: relative;
-    overflow: hidden;
 }
 
 /* CONTENT PLAY TRADITIONAL GAME */
@@ -106,38 +105,34 @@ nav a {
     text-align: center;
     color: #FFFFFF;
     position: absolute;
-    top: 27%;
-    left: 7%;
+    top: 32%;
+    left: 5%;
 }
 
 main h1 {
     line-height: 83px;
     margin-bottom: 45px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-style: normal;
-    font-weight: bold;
+    letter-spacing: 20px;
 }
 
-main h3 {
+main p {
     line-height: 28px;
     margin-bottom: 45px;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
 }
 
 .btn-warning {
     background-color: #FFB548;
     padding-left: 50px;
     padding-right: 50px;    
-    font-size: 22px;    
-  }
+}
   
 /* SCROLL DOWN BUTTON */  
 .scroll-down-button {
     position: absolute;
     bottom: 0px;
     left: 47%;
-  }
+}
   
 .scroll-down-button a {
     color: #FFFFFF;
@@ -174,6 +169,16 @@ main h3 {
 .the-games-text {
     margin-top: -40px;
     margin-right: 15px;
+}
+
+.the-games-text h3 {
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+.the-games-text h1 {
+    line-height: 64px;
+    letter-spacing: 3px;
 }
 
 .carousel-inner .carousel-item .d-block {
@@ -277,4 +282,166 @@ main h3 {
     letter-spacing: 2px;
     margin-top: 40px;
     position: relative;
+}
+
+/* SYSTEM REQUIREMENTS */
+.system {
+    background-image: url('assets/requirements.png');
+    background-repeat: no-repeat;
+    object-fit: contain;
+    position: relative;
+    background-size: 100% 100%;
+    height: 860px;
+    color: #FFFFFF;
+}
+
+.system h3 {
+    text-align: center;
+    position: relative;
+    line-height: 16px;
+    letter-spacing: 2px;
+    top: 5%;
+}
+
+.system-req {
+    width: 535px;
+    height: 400px;
+    position: relative;
+    top: 15%;
+    left: 5%;
+}
+
+.system-req h1 {
+    line-height: 64px;
+    letter-spacing: 3px;
+}
+
+.table {
+    border: 0.2px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+/* TOP SCORES */
+.scores {
+    background-image: url('assets/top-score-bg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 860px;
+    padding: 130px;
+}
+  
+.top-scores {
+    color: white;
+    margin-left: -15px;
+    position: relative;
+    top: 140px;
+}
+  
+.top-scores h1 {
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+  
+.top-scores h1 {
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+  
+.top-scores p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    width: 330px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+  
+.top-scores .see-more {
+    margin-top: 25px;
+    background-color: #FFB548;
+    width: 220px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 0px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #1A1917;
+}
+  
+.card-data {
+    position: relative;
+    right: -80px;
+    padding-bottom: 0px;
+    overflow: hidden;
+    height: 550px;
+}
+  
+.card-col {
+    position: absolute;
+    right: -115px;
+    width: 800px;
+}
+  
+.card-2 {
+    position: relative;
+    margin-left: -100px;
+    width: 100%;
+    height: auto;
+}
+  
+.content-card {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+  
+.content-card .picture {
+    float: left;
+    border-radius: 50%;
+    width: 50px;
+    box-shadow: 5px 1px#FFB548;
+}
+  
+.content-card .twitter-logo {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+  
+.name {
+    margin: 0px;
+    position: relative;
+    left: 20px;
+}
+  
+.name .name-orange {
+    color: #FFB548;
+    margin-bottom: -12px;
+    font-size: 24px;
+}
+  
+.name .job {
+    color: #FFFFFF;
+    font-size: 18px;
+    opacity: 0.5;
+}
+  
+.clear {
+    clear: both;
+}
+  
+.card-text {
+    font-weight: normal;
+    color: white;
+    font-size: 16px;
+}
+  
+.card-footer {
+    margin-top: -15px;
+    font-size: 14px;
 }
