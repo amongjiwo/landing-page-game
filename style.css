@@ -176,25 +176,6 @@ main h3 {
     margin-right: 15px;
 }
 
-.the-games-text h3 {
-    font-family: Arial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: 2px;
-}
-
-.the-games-text h1 {
-    font-family: Arial;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 56px;
-    line-height: 64px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}
-
 .carousel-inner .carousel-item .d-block {
     width: 750px;
     height: 400px;
@@ -225,4 +206,75 @@ main h3 {
     position: relative;
     right: -75px;
 }
-  
+
+/* GAME FEATURES */
+.game-features {
+    background-image: url('assets/features.jpg');
+    background-repeat: no-repeat;
+    object-fit: contain;
+    position: relative;
+    background-size: 100% 100%;
+    height: 860px;
+}
+
+.game-features .game-features-text {
+    width: 400px;
+    position: relative;
+    top: -15px;
+    right: 200px;
+    color: #FFFFFF
+}
+
+.white-circle {
+    border: 1px solid white;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 185px;
+    left: -2px;
+}
+
+.vertical-line {
+    border-left: 2px solid white;
+    height: 120px;
+    position: absolute;
+    left: 5px;
+    top: 200px;
+}
+
+.black-circle {
+    border: 1px solid white;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 320px;
+    left: -1px;
+}
+
+.black-circle2 {
+    border: 1px solid white;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 388px;
+    left: -1px;
+}
+
+.content-orange {
+    margin-left: 40px;
+}
+
+.text-orange {
+    color: #FFB548;
+    text-transform: uppercase;
+    line-height: 28px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    position: relative;
+}
