@@ -1,105 +1,59 @@
-h1 {
-    font-family: 'Bebas Neue', cursive;
-    font-weight: bold;
-    font-size: 80px;
-}
-
-h2 {
-    font-family: 'Bebas Neue', cursive;
-    font-weight: bold;
-    font-size: 36px;
-}
-
-h3 {
-    font-family: 'Bebas Neue', cursive;
-    font-weight: bold;
-    font-size: 24px;
-}
-
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-}
-
-.sub-text {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-}
-
-.text-main-button {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.navigation {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    text-transform: capitalize;
-}
-
-ul {
-    list-style-type: none;
-    text-decoration: none;
-}
-
-li {
-    margin-right: 3em;
-}
+* {
+    box-sizing: border-box;
+  }
 
 /* MAIN BACKGROUND */
 .main-page {
     background-image: url('assets/main-bg.jpg');
-    background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-position: center;
-    object-fit: contain;
     position: relative;
-    height: 860px;  
+    height: 880px;  
   }
-  
-/* NAVBAR */
-.navbar {
-    margin: 0px;
-    background-color: rgba(0, 0, 0, 0.5)!important;
+
+  a {
+    color: #FFFFFF !important;
+    font-family: 'Open Sans';
+    line-height: 33px;
+  }
+
+.main-bg-dark {
+    margin-top: -0.6px;
+    background: rgba(0, 0, 0, 0.5);
 }
 
-nav a {
-    color: #FFFFFF!important;
-  }
-
-.navbar-logo {
-    padding-left: 120px!important;
+.reg {
+    position: relative;
+    left: -100px;
+}
+  
+/* NAVBAR */
+.navbar-brand {
     font-family: 'Open Sans';
+    letter-spacing: 0.1em;
     font-size: 24px;
     font-style: normal;
     font-weight: bold;
-    text-transform: uppercase;
+    padding-bottom: .30rem;
     position: relative;
-}  
-
-.navbar-main {
-    margin-left: 150px!important;
-    text-align: center;
+    left: 80px;
+    text-transform: uppercase;
+  }
+  
+  .navbar-nav {
+    margin-left: 220px;
+    text-transform: uppercase;
     font-family: 'Open Sans';
-    font-size: 12px;
     font-style: normal;
     font-weight: bold;
-    text-transform: uppercase;
-    position: relative;
-}
-
-.navbar-reg {
-    margin-left: 300px!important;
-    left: -100px;
-    font-family: 'Open Sans';
+    line-height: 16px;
     font-size: 12px;
-    font-style: normal;
-    font-weight: bold;
-    text-transform: uppercase;
-    position: relative;
-}
+    text-align: right;
+    letter-spacing: 0.1em;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
 
 /* CONTENT PLAY TRADITIONAL GAME */
 .main-content {
@@ -120,7 +74,12 @@ nav a {
 main h1 {
     line-height: 83px;
     margin-bottom: 45px;
-    letter-spacing: 20px;
+    letter-spacing: 3px;
+    font-family: Arial;
+    font-size: 72px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
 }
 
 @media (max-width: 767px) {
@@ -131,10 +90,13 @@ main h1 {
     }
 }
 
-main p {
+main h3 {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: normal;
     line-height: 28px;
+    letter-spacing: 2px;
     margin-bottom: 45px;
-    letter-spacing: 5px;
 }
 
 .btn-warning {
@@ -151,7 +113,6 @@ main p {
 }
   
 .scroll-down-button a {
-    color: #FFFFFF;
     font-size: 12px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -168,16 +129,12 @@ main p {
 /* THE GAMES */
 .the-games {
     background-image: url('assets/the-games-bg.jpg');
-    background-repeat: no-repeat;
-    object-fit: contain;
-    position: relative;
     background-size: 100% 100%;
-    height: 860px;
+    height: 880px;
 }
 
 .games-content {
     position: relative;
-    color: #FFFFFF;
     margin-top: -1px;
     top: 28%;
 }
@@ -188,13 +145,24 @@ main p {
 }
 
 .the-games-text h3 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
     line-height: 28px;
     letter-spacing: 2px;
+    color: #FFFFFF;
 }
 
 .the-games-text h1 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
     line-height: 64px;
     letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .carousel-inner .carousel-item .d-block {
@@ -214,6 +182,10 @@ main p {
     border-radius: 50%;
     width: 20px;
     margin-right: 50px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .carousel-control-prev-icon {
@@ -231,17 +203,14 @@ main p {
 /* GAME FEATURES */
 .game-features {
     background-image: url('assets/features.jpg');
-    background-repeat: no-repeat;
-    object-fit: contain;
-    position: relative;
     background-size: 100% 100%;
-    height: 860px;
+    height: 880px;
 }
 
 .game-features .game-features-text {
     width: 400px;
     position: relative;
-    top: -15px;
+    top: -25px;
     right: 200px;
     color: #FFFFFF
 }
@@ -258,54 +227,77 @@ main p {
     }
 }
 
+.game-features-text h3 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+  }
+  
+  .game-features-text h1 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+
 .white-circle {
-    border: 1px solid white;
+    border: 1px solid #FFFFFF;
     width: 15px;
     height: 15px;
-    background-color: white;
+    background-color: #FFFFFF;
     border-radius: 50%;
     position: absolute;
-    top: 185px;
+    top: 152px;
     left: -2px;
 }
 
 .vertical-line {
-    border-left: 2px solid white;
+    border-left: 2px solid #FFFFFF;
     height: 120px;
     position: absolute;
     left: 5px;
-    top: 200px;
+    top: 165px;
 }
 
 .black-circle {
-    border: 1px solid white;
+    border: 1px solid #FFFFFF;
     width: 15px;
     height: 15px;
-    background-color: black;
     border-radius: 50%;
     position: absolute;
-    top: 320px;
+    top: 284px;
     left: -1px;
 }
 
 .black-circle2 {
-    border: 1px solid white;
+    border: 1px solid #FFFFFF;
     width: 15px;
     height: 15px;
-    background-color: black;
     border-radius: 50%;
     position: absolute;
-    top: 388px;
+    top: 353px;
     left: -1px;
 }
 
 .content-orange {
-    margin-left: 40px;
+    margin-left: 45px;
 }
 
 .text-orange {
     color: #FFB548;
     text-transform: uppercase;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
     line-height: 28px;
     letter-spacing: 2px;
     margin-top: 40px;
@@ -318,70 +310,93 @@ main p {
     rgba(0, 0, 52, 0) 0%,
     rgba(10, 10, 10, 0.50) 50%,
     #000 95%), url('assets/requirements.png');
-    background-repeat: no-repeat;
-    object-fit: contain;
-    position: relative;
     background-size: 100% 100%;
-    height: 860px;
+    height: 880px;
     color: #FFFFFF;
 }
 
 .system h3 {
-    text-align: center;
-    position: relative;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
     line-height: 16px;
     letter-spacing: 2px;
-    top: 5%;
+    text-align: center;
+    position: relative;
+    top: 15%;
 }
 
 .system-req {
-    width: 535px;
+    width: 532px;
     height: 400px;
     position: relative;
-    top: 15%;
-    left: 5%;
+    top: 23%;
+    left: 10%;
 }
 
 .system-req h1 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
     line-height: 64px;
     letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 .table {
     border: 0.2px solid rgba(255, 255, 255, 0.2);
-    color: white;
+    color: #FFFFFF;
+}
+
+table td p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+table tr span {
+    color: #FFB548;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 /* TOP SCORES */
 .scores {
     background-image: url('assets/top-score-bg.jpg');
     background-size: 100% 100%;
-    object-fit: contain;
     background-repeat: no-repeat;
     position: relative;
-    height: 860px;
+    height: 880px;
     padding: 130px;
 }
-  
+
 .top-scores {
-    color: white;
+    color: #FFFFFF;
     margin-left: -15px;
     position: relative;
     top: 140px;
 }
-  
+
 .top-scores h1 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
     line-height: 64px;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
-  
-.top-scores h1 {
-    line-height: 64px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}
-  
+
 .top-scores p {
     font-family: 'Open Sans';
     font-style: normal;
@@ -391,7 +406,7 @@ main p {
     line-height: 22px;
     margin-top: 10px;
 }
-  
+
 .top-scores .see-more {
     margin-top: 25px;
     background-color: #FFB548;
@@ -407,7 +422,7 @@ main p {
     text-align: center;
     color: #1A1917;
 }
-  
+
 .card-data {
     position: relative;
     right: -80px;
@@ -415,65 +430,65 @@ main p {
     overflow: hidden;
     height: 550px;
 }
-  
+
 .card-col {
     position: absolute;
     right: -115px;
     width: 800px;
 }
-  
+
 .card-2 {
     position: relative;
     margin-left: -100px;
     width: 100%;
     height: auto;
 }
-  
+
 .content-card {
     background-color: rgba(255, 255, 255, 0.08);
 }
-  
+
 .content-card .picture {
     float: left;
     border-radius: 50%;
     width: 50px;
-    box-shadow: 5px 1px#FFB548;
+    box-shadow: 5px 1px #FFB548;
 }
-  
+
 .content-card .twitter-logo {
     position: absolute;
     right: 15px;
     top: 20px;
 }
-  
+
 .name {
     margin: 0px;
     position: relative;
     left: 20px;
 }
-  
+
 .name .name-orange {
     color: #FFB548;
     margin-bottom: -12px;
     font-size: 24px;
 }
-  
+
 .name .job {
     color: #FFFFFF;
     font-size: 18px;
     opacity: 0.5;
 }
-  
+
 .clear {
     clear: both;
 }
-  
+
 .card-text {
     font-weight: normal;
-    color: white;
+    color: #FFFFFF;
     font-size: 16px;
 }
-  
+
 .card-footer {
     margin-top: -15px;
     font-size: 14px;
@@ -483,33 +498,45 @@ main p {
 
 .last-page {
     background-color: black;
-    height: 880px;
+    height: 830px;
     }
-  
-  .col-pic {
-   background-image: url('assets/skull.png');
-   background-repeat: no-repeat;
-   width: 400px;
-   height: 700px;
-   margin-top: 70px;
-  }
-  
-  .last-page .col-text {
+
+.container-subs {
+    margin-top: -1px;
+}
+
+.last-page .col-pic {
+    background-image: url('assets/skull.png');
+    background-repeat: no-repeat;
+    width: 445px;
+    height: 694px;
+    background-size: cover 50%;
+}
+
+.last-page .col-text {
     position: relative;
     left: -100px;
-    top: -30px;
+    top: -90px;
     color:#FFFFFF;
-    width: 450px;
-  }
-  
-  .last-page .form {
-    margin-right: 200px;
-  }
-  
-  .last-page .form label {
+    width: 445px;
+}
+
+.last-page .form button {
+    margin-right: -20px;
+}
+
+.col-footer1 .col-footer2 {
+    margin-bottom: 20px;
+}
+
+.last-page .form {
+    margin-right: 20px;
+}
+
+.last-page .form label {
     position: absolute;
-    left: 20px;
-    top: 415px;
+    left: 32px;
+    top: 308px;
     font-size: 14px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -517,43 +544,65 @@ main p {
     font-size: 12px;
     line-height: 19px;
     opacity: 0.5;
-    color: gray;
+    color: #FFFFFF;
     margin-bottom: 10px;
-  }
-  
-  .last-page .form-input {
+}
+
+.last-page .form-input {
     background-color: rgba(255, 255, 255, 0.08);
-    color: white;
-    width: 250px;
+    color: #FFFFFF;
+    width: 310px;
     height: 50px;
     border-radius: 5px;
     border: 0px;
     padding: 10px;
-  }
-  
-  ::placeholder {
+}
+
+::placeholder {
     color: #FFB548;
     position: relative;
+    margin-top: 2px;
+    font-size: 18px;
+    line-height: 25px;
     top: 5px;
-  }
-  
-  .last-page .col-text h3 {
-    font-family: sans-serif;
-    font-weight: lighter;
-  }
-  
-  .last-page .col-text h1 {
-    font-family: sans-serif;
-    font-weight: lighter;
-  }
-  
-  .col-footer1 {
+    left: 10px;
+}
+
+.last-page .col-text h3 {
+    width: 190px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+.last-page .col-text h1 {
+    width: 190px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 75px;
+    letter-spacing: 3px;
+}
+
+.last-page .col-text p {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.col-footer1 {
     position: relative;
     top: 7px;
     left: 160px;
-  }
-  
-  .col-footer1 ul a {
+}
+
+.col-footer1 ul a {
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Open Sans';
@@ -561,25 +610,40 @@ main p {
     font-weight: bold;
     font-size: 12px;
     line-height: 16px;
-    color: #FFFFFF;
-  }
-  
-  .col-footer1 ul li {
+}
+
+.col-footer1 ul li {
     list-style-type: none;
-    margin-right: 60px;
-  }
-  
-  .col-footer2 img {
+    margin-right: 40px;
+}
+
+.col-footer2 img {
     display: inline-block;
-    margin-left: 65px;
-  }
-  
-  .col-copyright {
-    color:#FFFFFF;
-  }
-  
-  .col-policy {
+    margin-left: 50px;
+}
+
+hr {
     color: #FFFFFF;
+}
+
+.col-copyright {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.col-policy {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
-    margin-left: 460px;
-  }
+    color: #FFFFFF;
+}
